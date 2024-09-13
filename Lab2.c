@@ -54,7 +54,7 @@ Node * removeAll(Node * head, int value){
     
     while(cur){
         
-        if (cur-value == value){
+        if (cur->value == value){
             
             if(prev == NULL){
                 
