@@ -36,7 +36,7 @@ Node * removeByValue(Node * head, int value){
     }
     
     Node * prev = head;
-    while(prev->next != NULL &&prev->next->value !=){
+    while(prev->next != NULL &&prev->next->value != value){
         prev= prev->next;
     }
     
